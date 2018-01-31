@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+              android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/camera_fragment"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:textSize="20sp"/>
+    <Button
+        android:id="@+id/cameraFragment"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/marginstartpageleft"
+        android:layout_marginRight="@dimen/marginstartpageright"
+        android:layout_marginTop="@dimen/marginbetweenefields"
+        android:background="@drawable/buttonbg"
+        android:text="@string/click_to_go_to_camera"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text2ndsmall"
+        android:textStyle="normal" />
+</LinearLayout>

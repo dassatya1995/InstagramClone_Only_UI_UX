@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">InstagramClone</string>
+    <string name="phone_number_email_or_username">Phone number,email or username</string>
+    <string name="signup">Don\'t have an account? <b>Sign Up.</b></string>
+    <string name="signuplogin">Aleardy have an account <b>Log in.</b></string>
+    <string name="or">OR</string>
+    <string name="forgot_your_login_detals">Forgot your login detals?</string>
+    <string name="get_help_signing_in">Get help signing in.</string>
+    <string name="log_in_with_facebook">Log in with Facebook</string>
+    <string name="english">English</string>
+    <string name="password">password</string>
+    <string name="friendsusing">Smackjack, michel pheleps and 391 other \n friends are using Instagram</string>
+    <string name="help_center">HELP CENTER</string>
+    <string name="access_your_account">ACCESS YOUR ACCOUNT</string>
+    <string name="use_username_or_email">Use Username or Email</string>
+    <string name="send_an_sms">Send an SMS</string>
+    <string name="login_with_facebook">Login with Facebook</string>
+    <string name="help_center22">Help Center</string>
+    <string name="log_in">Log In</string>
+    <string name="camera_fragment">Camera Fragment</string>
+    <string name="click_to_go_to_camera">Click to Go to Camera</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+
+</resources>

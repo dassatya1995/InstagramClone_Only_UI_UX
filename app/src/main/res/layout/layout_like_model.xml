@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:layout_marginTop="2.5dp"
+    android:layout_marginBottom="2.5dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/transparent">
+
+
+    <LinearLayout
+        android:layout_marginLeft="15dp"
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        android:layout_height="70dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/likeprofilepic"
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:layout_height="50dp"
+            android:scaleType="centerCrop"
+            app:civ_border_color="@color/darkRed"
+            app:civ_border_width="0.5dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_weight="6"
+        android:gravity="center">
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/usernamelike"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Satyajit das"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text2ndsmall" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:text="Started following You  1h"
+                android:textColor="@color/gray"
+                android:textSize="@dimen/text2ndsmall" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1.5"
+        android:gravity="center"
+        android:layout_marginRight="5dp"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="26dp"
+            android:text="Follow"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="9sp"
+            android:background="@color/blue" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.instagram.satyajit.instagramclone.loginandRegister.MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/english"
+                android:textSize="@dimen/textsmall"
+                android:gravity="center"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="9"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:src="@drawable/instawrittenlogo" />
+
+                <Button
+                    android:id="@+id/loginsignup"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/marginstartpageleft"
+                    android:layout_marginRight="@dimen/marginstartpageright"
+                    android:layout_marginTop="@dimen/marginbetweenefields"
+                    android:background="@drawable/buttonbg"
+                    android:text="@string/log_in"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text2ndsmall"
+                    android:textStyle="normal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:text="@string/friendsusing"
+                        android:textColor="@color/gray"
+                        android:gravity="center"
+                        android:textSize="@dimen/textsmall"/>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/marginstartpageleft"
+                    android:layout_marginRight="@dimen/marginstartpageright"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:layout_marginTop="10dp">
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_weight="3"
+                        android:background="@android:color/darker_gray"
+                        android:layout_height="0.7dp"/>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="@string/or"/>
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_weight="3"
+                        android:background="@android:color/darker_gray"
+                        android:layout_height="0.7dp"/>
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/loginfbsignup"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/marginstartpageleft"
+                    android:layout_marginRight="@dimen/marginstartpageright"
+                    android:layout_marginTop="@dimen/marginbetweenefields"
+                    android:background="@android:color/transparent"
+                    android:text="@string/log_in_with_facebook"
+                    android:textAllCaps="false"
+                    android:textColor="@color/blue"
+                    android:textSize="@dimen/text2ndsmall"
+                    android:textStyle="normal" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.7"
+            android:orientation="vertical"
+            android:gravity="center">
+
+
+            <View
+
+                android:layout_width="match_parent"
+                android:background="@android:color/darker_gray"
+                android:layout_height="0.7dp"/>
+
+            <Button
+                android:id="@+id/signuplogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:text="@string/signuplogin"
+                android:textAllCaps="false"
+                android:textColor="@color/gray"
+                android:textSize="@dimen/textsmall" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

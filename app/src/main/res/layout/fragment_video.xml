@@ -1,0 +1,22 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.instagram.satyajit.instagramclone.AddStory.Video">
+
+    <Button
+        android:id="@+id/videofragment"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/marginstartpageleft"
+        android:layout_marginRight="@dimen/marginstartpageright"
+        android:layout_marginTop="@dimen/marginbetweenefields"
+        android:background="@drawable/buttonbg"
+        android:text="Click to Go to Camera"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text2ndsmall"
+        android:textStyle="normal" />
+
+</FrameLayout>

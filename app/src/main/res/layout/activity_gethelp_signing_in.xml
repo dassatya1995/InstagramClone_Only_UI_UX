@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.instagram.satyajit.instagramclone.loginandRegister.GethelpSigningIn"
+    android:orientation="vertical">
+
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar2"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@android:color/transparent"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:textSize="@dimen/textlarge"
+                android:text="@string/access_your_account"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="@dimen/marginstartpageleft"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="@dimen/marginstartpageleft"
+                android:layout_marginRight="@dimen/marginstartpageright"
+                android:layout_height="0.2dp"
+                android:background="@color/linegray" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/marginstartpageleft"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/transparent"
+                android:drawableStart="@drawable/ic_account_grey600_24dp"
+                android:drawablePadding="8dp"
+                android:gravity="center_vertical"
+                android:padding="10dp"
+                android:text="@string/use_username_or_email"
+                android:textAllCaps="false"
+                android:textSize="@dimen/text2ndsmall" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="@dimen/marginstartpageleft"
+                android:layout_marginRight="@dimen/marginstartpageright"
+                android:layout_height="0.2dp"
+                android:background="@color/linegray" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/marginstartpageleft"
+                android:background="@android:color/transparent"
+                android:drawableLeft="@drawable/ic_cellphone_grey600_24dp"
+                android:drawablePadding="8dp"
+                android:gravity="center_vertical"
+                android:padding="10dp"
+                android:text="@string/send_an_sms"
+                android:textAllCaps="false"
+                android:textSize="@dimen/text2ndsmall" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="@dimen/marginstartpageleft"
+                android:layout_marginRight="@dimen/marginstartpageright"
+                android:layout_height="0.2dp"
+                android:background="@color/linegray" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/marginstartpageleft"
+                android:background="@android:color/transparent"
+                android:drawableLeft="@drawable/ic_facebook_box_grey600_24dp"
+                android:drawablePadding="8dp"
+                android:gravity="center_vertical"
+                android:padding="10dp"
+                android:text="@string/login_with_facebook"
+                android:textAllCaps="false"
+                android:textSize="@dimen/text2ndsmall" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_marginTop="2dp"
+                android:layout_marginStart="@dimen/marginstartpageleft"
+                android:layout_marginRight="@dimen/marginstartpageright"
+                android:layout_height="0.2dp"
+                android:background="@color/linegray" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:textSize="@dimen/textlarge"
+                android:text="@string/help_center"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="@dimen/marginstartpageleft"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="@dimen/marginstartpageleft"
+                android:layout_marginRight="@dimen/marginstartpageright"
+                android:layout_height="0.2dp"
+                android:background="@color/linegray" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/marginstartpageleft"
+                android:background="@android:color/transparent"
+                android:drawableLeft="@drawable/ic_help_circle_grey600_24dp"
+                android:drawablePadding="8dp"
+                android:gravity="center_vertical"
+                android:padding="10dp"
+                android:text="@string/help_center22"
+                android:textAllCaps="false"
+                android:textSize="@dimen/text2ndsmall" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="@dimen/marginstartpageleft"
+                android:layout_marginRight="@dimen/marginstartpageright"
+                android:layout_height="0.2dp"
+                android:background="@color/linegray" />
+
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
